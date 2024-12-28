@@ -1,7 +1,5 @@
 from fastapi import FastAPI
 from app.routers import task, user
-import app.models.user as user_model
-import app.models.task as task_model
 
 app = FastAPI()
 
